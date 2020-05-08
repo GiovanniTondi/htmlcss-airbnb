@@ -28,7 +28,6 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
-    /* text-shadow: 2px 5px 5px #2d2828; */
     text-shadow: 5px 8px 8px #2d2828;
 }
 
@@ -43,12 +42,15 @@ html {
     position: relative;
 }
 
+.img:not(:first-child){
+    margin-top: 5px;
+}
+
 #lecce {
     background-image: url("../img/lecce.jpg");
 }
 
 #otranto {
-    margin: 5px 0;
     background-image: url("../img/otranto.jpg");
 }
 
