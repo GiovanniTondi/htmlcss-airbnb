@@ -33,12 +33,12 @@ html {
 
 /* *** IMMAGINI *** */
 .img {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100%;
+    /* max-width: 100%; */
     position: relative;
 }
 
@@ -48,6 +48,7 @@ html {
 
 #lecce {
     background-image: url("../img/lecce.jpg");
+    background-position: 75% 100%;
 }
 
 #otranto {
